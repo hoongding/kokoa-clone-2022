@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats - Kokoa Clone!</title>
+    <title>Find - Kokoa Clone!</title>
   </head>
 
   <body>
@@ -31,30 +31,32 @@
           <i class="fa-solid fa-magnifying-glass fa-lg"></i>
         </span>
         <span class="setting">
-          <i class="fa-solid fa-gear fa-lg"></i>
-          <span class="setting__circle"></span>
+          <a href="settings.html">
+            <i class="fa-solid fa-gear fa-lg"></i>
+            <span class="setting__circle"></span>
+          </a>
         </span>
       </div>
     </header>
 
     <main class="main-screen">
-      <div class="find-icons">
-        <div class="find-icons__icon">
+      <div class="icon-row">
+        <div class="icon-row__icon">
           <i class="fa-solid fa-qrcode fa-2x"></i>
-          <span class="find-icons__text">QR Code</span>
+          <span class="icon-row__text">QR Code</span>
         </div>
-        <div class="find-icons__icon">
+        <div class="icon-row__icon">
           <i class="fa-regular fa-address-book fa-2x"></i>
-          <span class="find-icons__text">Add by</span>
-          <span class="find-icons__text2">Contacts</span>
+          <span class="icon-row__text">Add by</span>
+          <span class="icon-row__text2">Contacts</span>
         </div>
-        <div class="find-icons__icon">
+        <div class="icon-row__icon">
           <i class="fa-solid fa-fingerprint fa-2x"></i>
-          <span class="find-icons__text">Add by ID</span>
+          <span class="icon-row__text">Add by ID</span>
         </div>
-        <div class="find-icons__icon">
+        <div class="icon-row__icon">
           <i class="fa-regular fa-envelope fa-2x"></i>
-          <span class="find-icons__text">Invite</span>
+          <span class="icon-row__text">Invite</span>
         </div>
       </div>
       <div class="recommended-friends">
@@ -120,6 +122,9 @@
         </li>
       </ul>
     </nav>
+    <div id="no-mobile">
+      <span>Your screen is too big</span>
+    </div>
     <script
       src="https://kit.fontawesome.com/e15eb0d7e9.js"
       crossorigin="anonymous"

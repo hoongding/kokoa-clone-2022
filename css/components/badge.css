@@ -23,3 +23,15 @@
   left: -1px;
   top: -4px;
 }
+
+.badge__new {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  color: white;
+  font-size: 2px;
+}
